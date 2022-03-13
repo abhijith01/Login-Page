@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+#videobg{
+    position: relative;
+    z-index: -1;
+   
+    
+}
+.box{
+    width: 60vh;
+    height: 60vh;
+    border-radius: 5%;
+    margin-top: 10%;
+    margin-left: 35%;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    font-size: 5vh;
+    color: aliceblue;   
+}
+.headline{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10%;
+
+}
+input[type= email]{
+
+    width: 80%;
+    border: 2px aquamarine;
+    border-radius: 4px;
+    margin-left: 10%;
+    margin-right: 10%;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+
+    
+}
+input[type= password]{
+
+    width: 80%;
+    border: 2px aquamarine;
+    border-radius: 4px;
+    margin-left: 10%;
+    margin-right: 10%;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+
+    
+}
+.prompt{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+.o{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+.login{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5px 16px;
+    
+    background-color: white;
+
+    
+}
+.login:hover{
+ border-radius: 8%;
+ font-size: 15px;
+ 
+ background-color:black;
+ border-color: white;
+ color: white;
+ 
+}
+.l{
+    background-color: whitesmoke;
+}
